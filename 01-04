@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <body>
+      <form>
+        <!--Question 01-->
+        <label>Name:</label>
+        <input type="text" size=30><br>
+         <label>Email:</label>
+        <input type="email" size=30><br>
+         <label>Address 1:</label>
+        <input type="text" size=30><br>
+         <label>Address 2:</label>
+        <input type="text" size=30><br>
+         <label>Address 3:</label>
+        <input type="text" size=30><br>
+         <label>Postcode:</label>
+        <input type="text" size=30>
+        
+        
+        
+        <!--Question 02 
+        Method 1 - Using Fieldset-->
+      <fieldset>
+        <legend>Do you like Chocolate?</legend>
+        <input type="radio" name="xyz"> no
+        <input type="radio" name="xyz"> yes
+      </fieldset>
+        <!--Question 02 
+        Method 2 - Using Lebel and Input-->
+      <label>Do you like Chocolates?</label>
+        <input type="radio" name="xyz">No
+        <input type="radio" name="xyz">Yes<br>
+              
+              
+              
+              
+              <!--Question 03-->
+      <label>Do you agree that the Earth orbits the Sun?</label><br>
+        <input type="radio" name="xyz"> Strongly agree<br>
+        <input type="radio" name="xyz"> Agree<br>
+        <input type="radio" name="xyz"> No Opinion<br>
+        <input type="radio" name="xyz"> Disagree<br>
+        <input type="radio" name="xyz"> Strongly Disagree<br>
+              
+              
+              
+              <!--Question 04-->
+      <label>What would You choose ?</label><br>
+      <input type="checkbox" name="xyz">Autos<br>
+        <input type="checkbox" name="xyz">Business & Finance<br>
+        <input type="checkbox" name="xyz">Movies<br>
+        <input type="checkbox" name="xyz">Music<br>
+        <input type="checkbox" name="xyz">Computer & Internet<br>
+        <input type="checkbox" name="xyz">Science<br>
+        <input type="checkbox" name="xyz">Sports<br>
+
+      
+      </form>
+      
+  </body>
+</html>
